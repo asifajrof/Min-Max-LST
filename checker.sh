@@ -32,9 +32,7 @@ for i in $(seq 1 "$4") ; do
         exit
     fi
 
-    # add time_diff to brute
     fernau=$((fernau + time_diff))
-    # add time_diff2 to fernau
     brute=$((brute + time_diff2))
 
 done
