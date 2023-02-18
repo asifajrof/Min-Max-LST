@@ -1,5 +1,5 @@
 #!/bin/bash
-# stresstester GENERATOR SOL1 SOL2 ITERATIONS
+# checker GENERATOR SOL1 SOL2 ITERATIONS
 
 
 for i in $(seq 1 "$4") ; do
