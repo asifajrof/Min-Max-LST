@@ -8,11 +8,9 @@ void solv(){
     cin>>n>>m;
     assert(n!=1);
     vector<vector<int>> adj(n);
-    vector<pair<int,int>> edges;
     for(int i=0; i<m; ++i){
         int u, v;
         cin>>u>>v;
-        edges.emplace_back(u, v);
         adj[u].push_back(v);
         adj[v].push_back(u);
     }
@@ -62,14 +60,8 @@ void solv(){
     }
     assert(false);
 }
-/*
-4 5
-0 1 0 2 0 3
-1 2 2 3
-*/
 
 int main(){
     ios::sync_with_stdio(false); cin.tie(0);
-
     solv();
 }
