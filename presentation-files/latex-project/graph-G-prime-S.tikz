@@ -1,0 +1,39 @@
+\begin{tikzpicture}
+	\begin{pgfonlayer}{nodelayer}
+		\node [style=new style 0] (11) at (41, 0) {};
+		\node [style=leaf node] (12) at (39, -2) {};
+		\node [style=leaf node] (13) at (43, -2) {};
+		\node [style=leaf node] (14) at (43, -5) {};
+		\node [style=new style 0] (15) at (39, -5) {};
+		\node [style=new style 1] (16) at (39.25, -0.25) {};
+		\node [style=new style 1] (17) at (42.75, -0.25) {};
+		\node [style=new style 1] (18) at (38.25, -3.5) {};
+		\node [style=new style 1] (19) at (40.5, -4) {};
+		\node [style=new style 1] (20) at (41, -5.75) {};
+		\node [style=new style 1] (21) at (43.75, -3.5) {};
+	\end{pgfonlayer}
+	\begin{pgfonlayer}{edgelayer}
+		\draw (12) to (15);
+		\draw (11) to (12);
+		\draw (15) to (14);
+		\draw (14) to (13);
+		\draw (13) to (11);
+		\draw [style=new edge style 1] (12) to (13);
+		\draw [style=new edge style 1, bend left] (13) to (15);
+		\draw [style=new edge style 1] (15) to (11);
+		\draw [style=new edge style 1] (11) to (16);
+		\draw [style=new edge style 1] (16) to (12);
+		\draw [style=new edge style 1] (12) to (18);
+		\draw [style=new edge style 1] (18) to (15);
+		\draw [style=new edge style 1] (15) to (20);
+		\draw [style=new edge style 1] (20) to (14);
+		\draw [style=new edge style 1] (14) to (21);
+		\draw [style=new edge style 1] (21) to (13);
+		\draw [style=new edge style 1] (13) to (17);
+		\draw [style=new edge style 1] (17) to (11);
+		\draw [style=new edge style 1] (12) to (19);
+		\draw [style=new edge style 1] (19) to (14);
+		\draw (12) to (14);
+		\draw [style=new edge style 1] (11) to (14);
+	\end{pgfonlayer}
+\end{tikzpicture}
