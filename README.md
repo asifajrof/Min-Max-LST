@@ -1,7 +1,7 @@
 # Spanning Tree Problem with Constraint on The Number of Leaves
-This is the topic of term project under the CSE 462 sessional course offered by [Dpet. of CSE, BUET](https://cse.buet.ac.bd)
+This is the topic of term project under the CSE 462 sessional course offered by [Dept. of CSE, BUET](https://cse.buet.ac.bd)
 
-## Members
+## Project Members
 - Sheikh Azizul Hakim - @skhakim
 - Towhidul Islam - @towhid17
 - Ataf Fazledin Ahamed - @fazledyn
